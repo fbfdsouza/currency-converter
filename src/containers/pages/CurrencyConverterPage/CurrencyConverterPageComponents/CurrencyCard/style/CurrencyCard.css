@@ -1,0 +1,336 @@
+.currency-card {
+  /* Currency Card */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 360px;
+  height: 268px;
+  left: 64px;
+  top: 250px;
+}
+
+.input-block {
+  /* Form Block */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+
+  position: static;
+  width: 360px;
+  height: 87px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.radio-group {
+  /* Radio Group */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 192px;
+  height: 24px;
+  left: 0px;
+  top: 37px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: -29px;
+}
+
+.radio-block {
+  /* Radio Block */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 192px;
+  height: 61px;
+  left: 0px;
+  top: 119px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.purchase-type {
+  /* Tipo de compra */
+
+  position: static;
+  width: 126px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  /* Blacks & Greys/darkGray */
+
+  color: #2e3742;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.currency-card-result {
+  /* Currency Card */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 305px;
+  height: 304px;
+  left: 64px;
+  top: 250px;
+}
+
+.go-back-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px;
+
+  position: static;
+  width: 120px;
+  height: 56px;
+  left: 0px;
+  top: 0px;
+
+  /* Blacks & Greys/White */
+
+  background: #ffffff;
+  /* Blacks & Greys/mediumGray3 */
+
+  border: 1px solid #d7e0eb;
+  box-sizing: border-box;
+  /* dp-shadow/small */
+
+  box-shadow: 0px 8px 4px rgba(13, 17, 27, 0.08);
+  border-radius: 8px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.result-block {
+  /* Form Block */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 305px;
+  height: 120px;
+  left: 0px;
+  top: 88px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.purchase-description {
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  color: #6e7e90;
+
+  position: static;
+  width: 217px;
+  height: 64px;
+  left: 0px;
+  top: 240px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  margin: 32px 0px;
+}
+
+.result-title {
+  /* O resultado do cálculo é */
+
+  position: static;
+  width: 228px;
+  height: 32px;
+  left: 0px;
+  top: 0px;
+
+  /* Heading/Medium600 */
+
+  font-family: Sharon Sans;
+  font-size: 20px;
+  line-height: 32px;
+  /* identical to box height, or 160% */
+
+  display: flex;
+  align-items: center;
+
+  /* Blacks & Greys/darkGray2 */
+
+  color: #45505e;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.result-value {
+  /* R$ 240,56 */
+
+  position: static;
+  width: 305px;
+  height: 80px;
+  left: 0px;
+  top: 40px;
+
+  /* Display/xxxLarge600 */
+
+  font-family: Sharon Sans;
+  font-size: 64px;
+  line-height: 80px;
+  /* identical to box height, or 125% */
+
+  display: flex;
+  align-items: center;
+
+  /* Brand Colors/stoneGreen */
+
+  color: #00ab63;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.convert-text {
+  position: static;
+  width: 77px;
+  height: 24px;
+  left: 56px;
+  top: 16px;
+
+  /* Body/normal600 */
+
+  font-family: Sharon Sans;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* Blacks & Greys/White */
+
+  color: #ffffff;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+}
+
+.back-text {
+  /* Voltar */
+
+  position: static;
+  width: 48px;
+  height: 24px;
+  left: 56px;
+  top: 16px;
+
+  /* Body/normal600 */
+
+  font-family: Sharon Sans;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+
+  /* Blacks & Greys/darkGray */
+
+  color: #2e3742;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 16px;
+}

@@ -24,4 +24,3 @@ yarn install
 ```bash
 yarn start
 ```
-# currency-converter

@@ -1,0 +1,110 @@
+.currency-header {
+  /* Header */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+
+  position: absolute;
+  width: 538px;
+  height: 81px;
+  left: 64px;
+  top: 64px;
+}
+
+.main-logo {
+  /* Main Logo */
+
+  position: static;
+  width: 163px;
+  height: 81px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 48px;
+}
+
+.api-info {
+  /* API Info */
+
+  /* Auto Layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 327px;
+  height: 45px;
+  left: 211px;
+  top: 18px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 0px 48px;
+}
+
+.time-info {
+  position: static;
+  width: 279px;
+  height: 21px;
+  left: 0px;
+  top: 0px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+
+  /* Blacks & Greys/darkGray2 */
+
+  color: #45505e;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
+
+.currency-message {
+  /* Dados de câmbio disponibilizados pela Morningstar. */
+
+  position: static;
+  width: 327px;
+  height: 16px;
+  left: 0px;
+  top: 29px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+
+  /* Blacks & Greys/mediumGray2 */
+
+  color: #8c9cad;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 8px 0px;
+}
